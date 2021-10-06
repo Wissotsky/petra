@@ -108,11 +108,6 @@ small, .small {
   font-size: 0.875em;
 }
 
-img,
-svg {
-  vertical-align: middle;
-}
-
 /* rtl:raw:
 [type="tel"],
 [type="url"],
@@ -144,20 +139,6 @@ svg {
    .container-lg {
     max-width: 1320px;
   }
-}
-
-.alert {
-  position: relative;
-  padding: 1rem 1rem;
-  margin-bottom: 1rem;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-}
-
-.alert-warning {
-  color: #664d03;
-  background-color: #fff3cd;
-  border-color: #ffecb5;
 }
 
 @keyframes progress-bar-stripes {
@@ -206,22 +187,6 @@ svg {
     -webkit-mask-position: -200% 0%;
     mask-position: -200% 0%;
   }
-}
-
-.d-flex {
-  display: flex !important;
-}
-
-.flex-shrink-0 {
-  flex-shrink: 0 !important;
-}
-
-.align-items-center {
-  align-items: center !important;
-}
-
-.me-2 {
-  margin-right: 0.5rem !important;
 }
 
 .px-0 {
